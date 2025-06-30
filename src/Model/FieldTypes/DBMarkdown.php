@@ -121,7 +121,7 @@ class DBMarkdown extends DBText
      *
      * @see GISMarkdown::AsHTML()
      */
-    public function forTemplate()
+    public function forTemplate(): string
     {
         return $this->AsHTML();
     }
